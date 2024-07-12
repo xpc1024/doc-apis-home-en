@@ -146,20 +146,6 @@ Prior to each release, we ensure comprehensive test case coverage for every feat
 :::
 
 <br/>
-<br/>
-
-## Safety 
-<a href="https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp" alt="OSCS Status"><img src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=small"/></a>
-
-We have integrated with OSCS Murphy Security Scan, and no risk items have been detected in our source code. Adopting a zero-intrusion design philosophy, our solution does not contaminate the original project upon integration. Furthermore, all source code is openly disclosed, enabling you to easily assess any potential risks at a glance. 
-
-<br/>
-
-<a href="https://www.murphysec.com/dr/htY0sMYDQaDn4X8iXp" alt="OSCS Status"><img class="no-zoom" src="https://www.oscs1024.com/platform/badge/dromara/easy-es.git.svg?size=large"/></a>
-
-<br/>
-
-<br/>
 
 ## 🏡Code Hosting
 

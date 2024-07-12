@@ -140,7 +140,7 @@ compile group: 'com.docapis', name: 'doc-apis-starter', version: 'Latest Version
 <br/>
 <br/>
 
-:::tip :18Is the version stable ?
+:::tip Is the version stable ?
 
 Prior to each release, we ensure comprehensive test case coverage for every feature. Our unit tests boast an aggregate coverage rate exceeding 95%, with all deployed functionalities thoroughly tested. These tests have been validated through real-world usage in production environments and by a substantial user base within the open-source community.Moreover, we've conducted both theoretical analyses and practical tests to evaluate the framework's performance and security, guaranteeing peace of mind for all users. Detailed information on these aspects is available in the 'Shattering Concerns' section of our documentation.Our origins lie in the prestigious Aizuda open-source community, and our author is also a member of the Dromara open-source community, renowned for creating Easy-Es. With a wealth of development expertise, we take pride in the truly non-intrusive nature of our framework, which can be utilized without needing to be packaged into your project. Thus, you can confidently incorporate it into your workflow!"This response emphasizes the thorough testing and validation processes undergone by the framework, its performance and security assurances, the credibility of its creators, and its non-intrusive integration capabilities, providing assurance to potential users regarding its reliability and ease of use!
 :::

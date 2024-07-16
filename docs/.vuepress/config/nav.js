@@ -1,7 +1,7 @@
 module.exports = [
     {text: '💋Home', link: '/'},
     {
-        text: '🔞Doc', link: '/pages/7ead0d/', items: [
+        text: '📗Doc', link: '/pages/7ead0d/', items: [
             {text: 'v0.9.1(current verison)', link: '/pages/7ead0d/'},
             {
                 text: 'What\'s New', items: [

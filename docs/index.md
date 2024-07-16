@@ -6,9 +6,7 @@ heroText: doc-apis
 tagline: 🚀A Foolproof, Non-intrusive Framework for Automatic Generation of Interface Documentation
 actions:
 - actionText: 🚀Quick Start
-  actionLink: /pages/7ead0d/
-- actionText: 💘Support
-  actionLink: https://afdian.net/a/doc-apis
+  actionLink: /pages/7ead0d
   actionClass: action-button-doc-apis
 bannerBg: /img/back.png # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 defaultMode: light
@@ -123,11 +121,13 @@ notices: # 可选的
 
 ## ✨ Latest Version: [![Maven Central](https://img.shields.io/github/v/release/xpc1024/doc-apis?include_prereleases&logo=xpc&style=plastic)](https://search.maven.org/search?q=g:com.doc-apis)
 
+### Springboot project
+
 **Maven:**
 
 ```xml
 <dependency>
-    <groupId>com.docapis</groupId>
+    <groupId>com.doc-apis</groupId>
     <artifactId>doc-apis-starter</artifactId>
     <version>${Latest Version}</version>
 </dependency>
@@ -135,8 +135,25 @@ notices: # 可选的
 **Gradle:**
 
 ```groovy
-compile group: 'com.docapis', name: 'doc-apis-starter', version: 'Latest Version'
+compile group: 'com.doc-apis', name: 'doc-apis-starter', version: 'Latest Version'
 ```
+
+### Other project
+
+```xml
+        <dependency>
+            <groupId>com.doc-apis</groupId>
+            <artifactId>doc-apis-core</artifactId>
+            <version>Latest Version</version>
+        </dependency>
+```
+
+**Gradle:**
+
+```groovy
+compile group: 'com.doc-apis', name: 'doc-apis-core', version: 'Latest Version'
+```
+
 <br/>
 <br/>
 
@@ -188,8 +205,23 @@ If you wish to contribute, please first review[PR](/pages/7d828w/)。
       </a>
   </span>
   <span style="width: 150px;text-align: left">
-      <a href="https://baomidou.com/" target="_blank">
-          <img :src="$withBase('/img/external/mp.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      <a href="https://aizuda.com/" target="_blank">
+          <img :src="$withBase('/img/aizuda/aizuda.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="https://dromara.org/" target="_blank">
+          <img :src="$withBase('/img/dromara/dromara.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="https://snailjob.opensnail.com/" target="_blank">
+          <img :src="$withBase('/img/aizuda/snail.svg')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
+      </a>
+  </span>
+  <span style="width: 150px;text-align: left">
+      <a href="https://www.mongoplus.com/" target="_blank">
+          <img :src="$withBase('/img/aizuda/mongo-plus.png')" class="no-zoom" style="height:40px;max-width:150px;margin: 10px;">
       </a>
   </span>
 </div>

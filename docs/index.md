@@ -23,8 +23,8 @@ features: # 可选的
 postList: none
 notices: # 可选的
     - id: doc-apis
-      title: 🚀 doc-apis v0.9.1 published！
-      content: '<div><ul><li>2024-07</li><li>v0.9.1</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">View Details</a></p>'
+      title: 🚀 doc-apis v1.0.0 published！
+      content: '<div><ul><li>2024-07</li><li>v1.0.0</li></ul></div><p style="text-align: right;"><a href="/pages/2934a3/">View Details</a></p>'
       isHtmlContent: true
 ---
 <Notice :data="$frontmatter.notices"/>

@@ -2,10 +2,10 @@ module.exports = [
     {text: '💋Home', link: '/'},
     {
         text: '📗Doc', link: '/pages/7ead0d/', items: [
-            {text: 'v0.9.1(current verison)', link: '/pages/7ead0d/'},
+            {text: 'v1.0.0(current verison)', link: '/pages/7ead0d/'},
             {
                 text: 'What\'s New', items: [
-                    {text: 'What\' s New In doc-apis v0.9.1 ?', link: '/pages/2934a3/'},
+                    {text: 'What\' s New In doc-apis v1.0.0 ?', link: '/pages/2934a3/'},
                 ]
             }
         ]

@@ -29,7 +29,7 @@ module.exports = [
 
     {
         text: '💞recommend', items: [
-            {text: 'Easy-Es', link: 'https://www.eays-es.cn/'},
+            {text: 'Easy-Es', link: 'https://www.easy-es.cn/'},
             {text: 'Fit-Plan-Generator', link: 'https://gitee.com/easy-es/fit-plan'}
         ]
     },

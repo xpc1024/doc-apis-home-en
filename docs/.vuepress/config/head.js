@@ -3,6 +3,7 @@ module.exports = [
   ['link', { rel: 'icon', href: '/img/logo.png' }], //favicons，资源放在public文件夹
   ['meta', { name: 'keywords', content: 'doc-apis,doc-apis home ,Automatic generation framework of low code and zero intrusion interface documents'}],
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+  ['meta', { name: 'baidu-site-verification', content: 'codeva-kvw7L3b7HX' }], // 百度站长
 
   ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
   ['script', {async: true, src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉

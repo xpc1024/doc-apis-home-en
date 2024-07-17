@@ -10,14 +10,14 @@ npm run build
 cd docs/.vuepress/dist
 
 # deploy to github pages
-echo 'doc-apis.com' > CNAME
+echo 'en.doc-apis.com' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:xpc1024/easy-es-home-source.git
+  githubUrl=git@github.com:xpc1024/xpc1024/doc-apis-home-en.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://xpc1024:${GITHUB_TOKEN}@github.com/xpc1024/easy-es-home-source.git
+  githubUrl=https://xpc1024:${GITHUB_TOKEN}@github.com/xpc1024/xpc1024/doc-apis-home-en.git
   git config --global user.name "xpc1024"
   git config --global user.email "252645816@qq.com"
 fi

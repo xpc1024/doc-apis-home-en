@@ -56,5 +56,38 @@ module.exports = [
         }
       }, 3000);
     });
-  `]
+  `],
+
+  // 添加 window.difyChatbotConfig 脚本
+  [
+    'script',
+    {},
+    `
+      window.difyChatbotConfig = {
+        token: 'jzIaF7lvgho5YFaG'
+      }
+      `
+  ],
+  // 添加 dify embed 脚本
+  [
+    'script',
+    {
+      src: "https://udify.app/embed.min.js",
+      id: "4dk8oM4z8aXmV0B7",
+      defer: true
+    }
+  ],
+  // 添加自定义样式
+  [
+    'style',
+    {},
+    `
+      #dify-chatbot-bubble-button {
+        background-color: #25c37d !important;
+        width:35px !important; 
+        height:35px !important; 
+      }
+      `,
+
+  ]
 ];

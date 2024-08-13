@@ -4,14 +4,18 @@ module.exports = function advHtml() {
    * 广告列表
    */
   let sidebarArray = [
-    `<a name="adv" class="none" href="https://www.easy-es.cn/" target="_blank">
+      `<a name="adv" class="none" href="https://www.easy-es.cn/" target="_blank">
       <img className="no-zoom" height="60" width="224" " src="/img/sponsor/easy-es.png">
     </a>`,
-    `<a name="adv" class="none" href="https://www.mingdao.com?s=utm_206&utm_source=doc-apis&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=%E6%B3%A8%E5%86%8C%E4%BD%93%E9%AA%8C" target="_blank">
+      `<a name="adv" class="none" href="https://www.mingdao.com?s=utm_206&utm_source=doc-apis&utm_campaign=IT%E7%BD%91%E7%AB%99&utm_content=%E6%B3%A8%E5%86%8C%E4%BD%93%E9%AA%8C" target="_blank">
       <img className="no-zoom" height="60" width="224" " src="/img/sponsor/mingdao.jpg">
+    </a>`,
+      `<a name="adv" class="none" href="https://api-buddy.cn/" target="_blank">
+      <img className="no-zoom" height="60" width="224" " src="/img/sponsor/fastRequest.svg">
+    </a>`,
+      `<a name="adv" class="none" href="https://fastbee.cn/" target="_blank">
+      <img className="no-zoom" height="60" width="224" " src="/img/sponsor/fxwl.png">
     </a>`
-
-
   ]
 
   let _html = `<div style="width:224px;margin:0 auto;display:flex;flex-direction: column;"> 
